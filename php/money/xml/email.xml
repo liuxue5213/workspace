@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<setting>
+	<user id="johnscott">
+		<coin>
+			<name>huobiethusdt</name>
+			<sal>6.4</sal>
+		</coin>
+	</user>
+</setting>

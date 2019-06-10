@@ -1,0 +1,51 @@
+Time : 15:49:11
+SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x91\x87 T...' for column 'subject' at row 1
+Raw SQL : INSERT INTO js_email (mail_id,mail_date,mail_from,fromMail,reply_to,mail_to,cc,bcc,subject,textPlain,user_id) VALUES (:mail_id,:mail_date,:mail_from,:fromMail,:reply_to,:mail_to,:cc,:bcc,:subject,:textPlain,:user_id)
+
+Time : 15:44:06
+SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x91\x87 T...' for column 'subject' at row 1
+Raw SQL : INSERT INTO js_email (mail_id,mail_date,mail_from,fromMail,reply_to,mail_to,cc,bcc,subject,textPlain,user_id) VALUES (:mail_id,:mail_date,:mail_from,:fromMail,:reply_to,:mail_to,:cc,:bcc,:subject,:textPlain,:user_id)
+
+Time : 15:35:23
+SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x91\x8D \x0D...' for column 'textPlain' at row 1
+Raw SQL : INSERT INTO js_email (mail_id,mail_date,mail_from,fromMail,reply_to,mail_to,cc,bcc,subject,textPlain,user_id) VALUES (:mail_id,:mail_date,:mail_from,:fromMail,:reply_to,:mail_to,:cc,:bcc,:subject,:textPlain,:user_id)
+
+Time : 15:26:02
+SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x91\x8D \x0D...' for column 'textPlain' at row 1
+Raw SQL : INSERT INTO js_email (mail_id,mail_date,mail_from,fromMail,reply_to,mail_to,cc,bcc,subject,textPlain,user_id) VALUES (:mail_id,:mail_date,:mail_from,:fromMail,:reply_to,:mail_to,:cc,:bcc,:subject,:textPlain,:user_id)
+
+Time : 15:06:58
+SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x98\x8A\x0D\x0A...' for column 'textPlain' at row 1
+Raw SQL : INSERT INTO js_email (mail_id,mail_date,mail_from,fromMail,reply_to,mail_to,cc,bcc,subject,textPlain,user_id) VALUES (:mail_id,:mail_date,:mail_from,:fromMail,:reply_to,:mail_to,:cc,:bcc,:subject,:textPlain,:user_id)
+
+Time : 15:06:02
+SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x98\x8A\x0D\x0A...' for column 'textPlain' at row 1
+Raw SQL : INSERT INTO js_email (mail_id,mail_date,mail_from,fromMail,reply_to,mail_to,cc,bcc,subject,textPlain,user_id) VALUES (:mail_id,:mail_date,:mail_from,:fromMail,:reply_to,:mail_to,:cc,:bcc,:subject,:textPlain,:user_id)
+
+Time : 15:03:58
+SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x98\x94\x0D\x0A...' for column 'textPlain' at row 1
+Raw SQL : INSERT INTO js_email (mail_id,mail_date,mail_from,fromMail,reply_to,mail_to,cc,bcc,subject,textPlain,user_id) VALUES (:mail_id,:mail_date,:mail_from,:fromMail,:reply_to,:mail_to,:cc,:bcc,:subject,:textPlain,:user_id)
+
+Time : 14:59:59
+SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x91\x8D \x0D...' for column 'textPlain' at row 1
+Raw SQL : INSERT INTO js_email (mail_id,mail_date,mail_from,fromMail,reply_to,mail_to,cc,bcc,subject,textPlain,user_id) VALUES (:mail_id,:mail_date,:mail_from,:fromMail,:reply_to,:mail_to,:cc,:bcc,:subject,:textPlain,:user_id)
+
+Time : 14:59:04
+SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x91\x8D \x0D...' for column 'textPlain' at row 1
+Raw SQL : INSERT INTO js_email (mail_id,mail_date,mail_from,fromMail,reply_to,mail_to,cc,bcc,subject,textPlain,user_id) VALUES (:mail_id,:mail_date,:mail_from,:fromMail,:reply_to,:mail_to,:cc,:bcc,:subject,:textPlain,:user_id)
+
+Time : 14:45:57
+SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x91\x8D  ...' for column 'textPlain' at row 1
+Raw SQL : INSERT INTO js_email (mail_id,mail_date,mail_from,fromMail,reply_to,mail_to,cc,bcc,subject,textPlain,user_id) VALUES (:mail_id,:mail_date,:mail_from,:fromMail,:reply_to,:mail_to,:cc,:bcc,:subject,:textPlain,:user_id)
+
+Time : 14:43:56
+SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x91\x8D  ...' for column 'textPlain' at row 1
+Raw SQL : INSERT INTO js_email (mail_id,mail_date,mail_from,fromMail,reply_to,mail_to,cc,bcc,subject,textPlain,user_id) VALUES (:mail_id,:mail_date,:mail_from,:fromMail,:reply_to,:mail_to,:cc,:bcc,:subject,:textPlain,:user_id)
+
+Time : 14:35:31
+SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x91\x8C\x0Ac...' for column 'textPlain' at row 1
+Raw SQL : INSERT INTO js_email (mail_id,mail_date,mail_from,fromMail,reply_to,mail_to,cc,bcc,subject,textPlain,user_id) VALUES (:mail_id,:mail_date,:mail_from,:fromMail,:reply_to,:mail_to,:cc,:bcc,:subject,:textPlain,:user_id)
+
+Time : 14:35:15
+SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x91\x8C\x0Ac...' for column 'textPlain' at row 1
+Raw SQL : INSERT INTO js_email (mail_id,mail_date,mail_from,fromMail,reply_to,mail_to,cc,bcc,subject,textPlain,user_id) VALUES (:mail_id,:mail_date,:mail_from,:fromMail,:reply_to,:mail_to,:cc,:bcc,:subject,:textPlain,:user_id)

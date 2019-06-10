@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<setting>
+	<coins>huobibtcusdt</coins>
+	<coins>huobiethusdt</coins>
+	<coins>huobiltcusdt</coins>
+
+	<coins>bitfinexbtcusd</coins>
+	<coins>bitfinexethusd</coins>
+
+	<coins>bitstampbtcusd</coins>
+	<coins>bitstampethusd</coins>
+
+	<coins>okcoinbtcusd</coins>
+	<coins>okcoinltcusd</coins>
+</setting>
