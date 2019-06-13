@@ -4,11 +4,11 @@
     $key = isset($_GET['key']) ? $_GET['key']: '';
     $name = isset($_GET['name']) ? $_GET['name']: '';
     $Common = new Money();
-    $check = $Common->checkUserInfo($name, $key);
-    if (!$check) {
-        header("Location: http://johnscott1989.top"); 
-        exit;
-    }
+    // $check = $Common->checkUserInfo($name, $key);
+    // if (!$check) {
+    //     header("Location: http://johnscott1989.club"); 
+    //     exit;
+    // }
 ?>
 
 <!DOCTYPE html>
