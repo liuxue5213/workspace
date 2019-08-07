@@ -206,62 +206,9 @@ class Money
     public function getEmail($user, $symbol) {
         $coin_name = './xml/email.xml';
         if (file_exists($coin_name)) {
-            
-
-
 
         }
         die;
         return $arr;
     }
-
-
-
-    // <p class="quzhi">
-    //     <em>btcchinabtccny</em>
-    //     <em>huobibtccny</em>
-    //     <em>okcoincnbtccny</em>
-    //     <em>chbtcbtccny</em>
-    //     <em>coinbasebtcusd</em>
-    //     <em>bitfinexbtcusd</em>
-    //     <em>bitstampbtcusd</em>
-    //     <em>btcchinaltccny</em>
-    //     <em>huobiltccny</em>
-    //     <em>okcoincnltccny</em>
-    //     <em>chbtcltccny</em>
-    //     <em>qiltcusdfuture</em>
-    //     <em>bitfinexltcusd</em>
-    //     <em>qibtcusdfuture</em>
-    //     <em>bitvcbtccnyfuture</em>
-    //     <em>okcoinbtcusdfuture</em>
-    //     <em>okcoinbtcusd</em>
-    //     <em>bterbtccny</em>
-    //     <em>bityesbtcusd</em>
-    //     <em>btc38btccny</em>
-    //     <em>btcebtcusd</em>
-    //     <em>btctradebtccny</em>
-    //     <em>yunbibtccny</em>
-    //     <em>bterltccny</em>
-    //     <em>okcoinltcusdfuture</em>
-    //     <em>okcoinltcusd</em>
-    //     <em>btceltcusd</em>
-    //     <em>btc38ltccny</em>
-    //     <em>btctradeltccny</em>
-    //     <em>bterbtscny</em>
-    //     <em>yunbibtscny</em>
-    //     <em>bterdashcny</em>
-    //     <em>bterdogecny</em>
-    //     <em>bternxtcny</em>
-    //     <em>bterppccny</em>
-    //     <em>bterxmrcny</em>
-    //     <em>bternmccny</em>
-    //     <em>bterxcpcny</em>
-    //     <em>bterxtccny</em>
-    //     <em>bterifccny</em>
-    //     <em>bterdtccny</em>
-    //     <em>bterzetcny</em>
-    //     <em>btc123btccny</em>
-    //     <em>btc123btcusd</em>
-    //     <em>btc123btccnymix</em>
-    //</p>
 }

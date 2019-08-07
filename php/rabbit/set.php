@@ -10,4 +10,3 @@ $ra = new RabbitMQCommand($configs,$exchange_name,$queue_name,$route_key);
 for($i=0;$i<=100;$i++){
     $ra->send(date('Y-m-d H:i:s',time()));
 }
-exit();

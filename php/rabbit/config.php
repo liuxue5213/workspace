@@ -9,20 +9,20 @@ $configs = array (
 
 $emails = array(
 	'default' => array(
-		'username' => 'liuxue_890725@sina.com',
-		'password' => 'liuxue28316159'
+		'username' => '',
+		'password' => ''
 	),
 	'sina' => array(
-		'username' => 'liuxue_890725@sina.com',
-		'password' => 'liuxue28316159'
+		'username' => '',
+		'password' => ''
 	),
 	'gmail' => array(
 		'username' => '',
 		'password' => ''
 	),
 	'qq' => array(
-		'username' => 'liuxue_890725@qq.com',
-		'password' => 'nhijluptenjybgad'
+		'username' => '',
+		'password' => ''
 	),
 	'126' => array(
 		'username' => '',

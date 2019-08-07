@@ -11,16 +11,6 @@ $cc = empty($_POST['cc']) ? '' : $_POST['cc'];//抄送
 $bcc = empty($_POST['bcc']) ? '' : $_POST['bcc'];//密送
 $asc = empty($_POST['asc']) ? '' : $_POST['asc'];//分别发送
 
-
-// $htmlData = '';
-// if (!empty($content)) {
-// 	if (get_magic_quotes_gpc()) {
-// 		$htmlData = stripslashes($content);
-// 	} else {
-// 		$htmlData = $content;
-// 	}
-// }
-
 $info = array(
 	'fromType' => $useFromType,
 	'addr' => $email,

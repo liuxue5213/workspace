@@ -1,11 +1,5 @@
 <?php
     require './common.php';
-    $Common = new Money();
-    $check = $Common->checkUserInfo();
-    if (!$check) {
-        header("Location: http://johnscott1989.top"); 
-        exit;
-    }
 ?>
 
 <!DOCTYPE html>

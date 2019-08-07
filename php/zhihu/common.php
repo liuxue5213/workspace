@@ -72,8 +72,6 @@ class Zhihu
 
             }
             // https://www.zhihu.com/api/v4/anticrawl/captcha_appeal  
-            // captcha
-            die;
         }
         return $result;
     }
