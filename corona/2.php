@@ -3,7 +3,7 @@
  * @Author: anchen
  * @Date:   2020-03-27 11:02:44
  * @Last Modified by:   anchen
- * @Last Modified time: 2020-03-28 17:57:33
+ * @Last Modified time: 2020-03-29 15:42:21
  */
 require_once 'redis.php';
 require_once 'corona.php';
@@ -14,10 +14,10 @@ $config = array(
 	'port' => '6379'
 );
 $redis = new Predis($config);
-if ($redis->exists('coronInfo')) {
-	$info = $redis->hGetAll('coronInfo');
+if ($redis->exists('coronaInfo')) {
+	$info = $redis->hGetAll('coronaInfo');
 } else {
-	$corona = new CoronInfo();
+	$corona = new CoronaInfo();
 	$info = $corona->index(1);
 }
 

@@ -3,7 +3,7 @@
  * @Author: anchen
  * @Date:   2020-03-27 17:06:30
  * @Last Modified by:   anchen
- * @Last Modified time: 2020-03-28 18:06:48
+ * @Last Modified time: 2020-03-29 14:07:35
  */
 require_once 'phpQuery.php';
 require_once 'redis.php';
@@ -43,7 +43,7 @@ class Corona {
                 'port' => '6379'
             );
             $redis = new Predis($config);
-            $key = 'coron';
+            $key = 'corona';
             $j = 0;
             for ($i = 0; $i <= $count; $i++) {
                 if ($i % 100 == 0) {
@@ -52,6 +52,10 @@ class Corona {
                     $this->redisDel($redis, $tmpKey);
                 }
                 if (isset($data[$i]['country']) && $data[$i]['country'] != 'Total:') {
+                	if (isset($data[$i]['country_url']) && $data[$i]['country_url']) {
+                		$tmpK = explode('/', $data[$i]['country_url']);
+						$data[$i]['name'] = isset($tmpK[1]) ? $tmpK[1] : '';
+					}
                     $redis->hSet($tmpKey, $data[$i]['country'], serialize($data[$i]));
                 }
             }
@@ -59,7 +63,7 @@ class Corona {
             if ($return) {
                 return $this->redisGetAll($redis, $key);
             } else {
-                var_dump('refresh data success:'.time());
+                var_dump('refresh data success:'.date('Y-m-d H:i:s'));
             }
         }
     }
@@ -109,4 +113,33 @@ class Corona {
             $redis->del($key);
         }
     }
+
+	public  function getCountry($country, $key = 'corona')
+	{
+		$res = array();
+		if ($country) {
+			$i = 1;
+			$config = array(
+				'host' => '127.0.0.1',
+				'port' => '6379'
+			);
+			$redis = new Predis($config);
+			while ($i) {
+				$tmpKey = $key.$i;
+				if ($redis->exists($tmpKey)) {
+					//缓存的数据
+					$res = $redis->hGet($tmpKey, $country);
+					if ($res) {
+						$res = unserialize($res);
+						$i = '';
+					} else {
+						$i++;
+					}
+				} else {
+					$i = '';
+				}
+			}
+		}
+		return $res;
+	}
 }

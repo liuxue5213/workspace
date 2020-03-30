@@ -3,7 +3,7 @@
  * @Author: anchen
  * @Date:   2020-03-27 17:06:30
  * @Last Modified by:   anchen
- * @Last Modified time: 2020-03-28 17:58:00
+ * @Last Modified time: 2020-03-29 11:07:01
  */
 require_once 'phpQuery.php';
 require_once 'redis.php';
@@ -44,7 +44,7 @@ class CoronaInfo {
         if ($return) {
             return $redis->hGetAll($tmpKey);
         } else {
-            var_dump('refresh info success:'.time());
+            var_dump('refresh info success:'.date('Y-m-d H:i:s'));
         }
     }
 

@@ -3,11 +3,10 @@
  * @Author: anchen
  * @Date:   2020-03-27 11:02:44
  * @Last Modified by:   anchen
- * @Last Modified time: 2020-03-28 18:09:27
+ * @Last Modified time: 2020-03-29 15:44:05
  */
 require_once 'get.php';
 
-$search = isset($_REQUEST['search']) ? $_REQUEST['search'] : '';
 $config = array(
     'host' => '127.0.0.1',
     'port' => '6379'
