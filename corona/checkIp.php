@@ -1,9 +1,9 @@
 <?php
 
-
 class Ip {
     function index()
     {
+    	//国内 返回true
         $ip =$this->getIp();
         return in_array($ip, array('unknown', '127.0.0.1')) ? false : $this->judgeIpByTaobao($ip);
     }
