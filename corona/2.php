@@ -3,11 +3,11 @@
  * @Author: anchen
  * @Date:   2020-03-27 11:02:44
  * @Last Modified by:   anchen
- * @Last Modified time: 2020-03-29 15:42:21
+ * @Last Modified time: 2020-04-01 09:59:28
  */
-require_once 'redis.php';
 require_once 'corona.php';
-require_once 'checkIp.php';
+require_once '../common/redis.php';
+require_once '../common/checkIp.php';
 
 $config = array(
 	'host' => '127.0.0.1',

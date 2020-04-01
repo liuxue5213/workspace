@@ -1,5 +1,5 @@
 <?php
-header("Access-Control-Allow-Origin：http://34.80.195.241");
+// header("Access-Control-Allow-Origin：http://34.80.195.241");
 $nav = isset($_REQUEST['nav']) ? $_REQUEST['nav']: '';
 ?>
 <!doctype html>

@@ -3,15 +3,12 @@
  * @Author: anchen
  * @Date:   2020-03-27 17:06:30
  * @Last Modified by:   anchen
- * @Last Modified time: 2020-03-29 11:07:01
+ * @Last Modified time: 2020-04-01 09:59:59
  */
-require_once 'phpQuery.php';
-require_once 'redis.php';
-require_once 'QueryList.php';
-// require 'QueryList/src/QueryList.php';
-// require 'vendor/autoload.php';
+require_once '../common/QueryList.php';
+require_once '../common/phpQuery.php';
+require_once '../common/redis.php';
 use QL\QueryList;
-// composer require jaeger/querylist:V3.2.1
 
 class CoronaInfo {
     public function index($return = false)
